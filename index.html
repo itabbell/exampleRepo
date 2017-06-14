@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GatewayAddressbook</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <form>
+        <h1>Contacts</h1>
+        <label for="firstname">Firstname:</label>
+        <input id="firstname" type="text" name="firstname">
+        
+        <label for="lastname">Lastname:</label>
+        <input id="lastname" type="text" name="lastname">
+        
+        <label for="address">Address:</label>
+        <input id="address" type="text" name="address">
+
+        <label for="city">City:</label>
+        <input id="city" type="text" name="city">
+
+        <label for="state">State:</label>
+        <input id="state" type="text" name="state">
+        
+        <label for="zip">Zip:</label>
+        <input id="zip" type="text" name="zip" size="5">
+        
+        <label for="phone">Phone:</label>
+        <input id="phone" type="text" name="phone">
+        
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email">
+        
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Zip</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id='container'>
+        </tbody>
+    </table>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
